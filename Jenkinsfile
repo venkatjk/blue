@@ -12,6 +12,7 @@ pipeline {
         stage('test') {
           steps {
             sh 'date'
+            echo 'hello'
           }
         }
 
